@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.apresentacao__favoritos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.apresentacao__titulo{
+    text-align: center;
+    font-family: "Playpen", cursive;
+    font-size: 50px;
+}
+
+.apresentacao__filmes{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 50px;
+    gap: 100px;
+}
+
+.apresentacao__filmes__favoritos{
+    border:1px solid white;
+}
+
+.rodape{
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
